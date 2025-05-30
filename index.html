@@ -1,0 +1,603 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="BumbaSite em Souselas, Coimbra. Cortes modernos, barba, sobrancelha e hidratação. Agende seu horário pelo WhatsApp!">
+    <meta name="author" content="" />
+    <title>BumbaSite</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+</head><body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-3 shadow-sm" id="mainNav" style="background: linear-gradient(90deg, #232526 0%, #f44336 100%);">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand d-flex align-items-center" href="#page-top" style="font-weight:700; font-size:1.25em; letter-spacing:1px;">
+                <img src="assets/img/logo.jpg" alt="Logo BumbaSite" style="height: 56px; margin-right:12px; border-radius:16px; box-shadow:0 2px 8px #0003;">
+                <span style="color:#fff;">BumbaSite</span>
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#about" style="color:#fff; font-weight:500;">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services" style="color:#fff; font-weight:500;">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" style="color:#fff; font-weight:500;">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#agendamento" style="color:#fff; font-weight:500;">Agendar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#localizacao" style="color:#fff; font-weight:500;">Localização</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" style="color:#fff; font-weight:500;">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        #mainNav {
+            background: linear-gradient(90deg, #232526 0%, #f44336 100%) !important;
+            box-shadow: 0 2px 16px #0002;
+            transition: background 0.3s, box-shadow 0.3s;
+        }
+        #mainNav .navbar-brand img {
+            border-radius: 16px;
+            box-shadow: 0 2px 8px #0003;
+            transition: box-shadow 0.2s;
+        }
+        #mainNav .navbar-brand img:hover {
+            box-shadow: 0 4px 16px #f4433620;
+        }
+        #mainNav .nav-link {
+            color: #fff !important;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            margin-left: 8px;
+            margin-right: 8px;
+            transition: color 0.2s, border-bottom 0.2s;
+            border-bottom: 2px solid transparent;
+        }
+        #mainNav .nav-link:hover, #mainNav .nav-link:focus, #mainNav .nav-link.active {
+            color: #ffd600 !important;
+            border-bottom: 2px solid #ffd600;
+            background: none;
+        }
+        #mainNav .navbar-toggler {
+            border: none;
+            outline: none;
+        }
+        #mainNav .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        }
+        @media (max-width: 991px) {
+            #mainNav .nav-link {
+                margin-left: 0;
+                margin-right: 0;
+                padding: 0.7em 0;
+                border-bottom: none;
+            }
+        }
+    </style>
+    <!-- Masthead-->
+<header class="masthead" style="position: relative; min-height: 100vh; display: flex; align-items: center;">
+    <!-- Overlay preto translúcido para destacar o texto, mas sem esconder a imagem -->
+    <div style="position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(20,20,20,0.55);z-index:1;"></div>
+    <div class="container px-4 px-lg-5 h-100" style="position:relative;z-index:2;">
+        <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
+            <div class="col-lg-8 align-self-end">
+                <h1 class="text-white font-weight-bold" style="font-size:3rem; letter-spacing:2px; text-shadow:0 4px 24px #0007;">
+                    Conectando negócios ao mundo digital
+                </h1>
+                <hr class="divider" style="border-top:3px solid #f44336; width:90px; margin:auto; margin-bottom:2rem; opacity:0.9;">
+            </div>
+            <div class="col-lg-8 align-self-baseline">
+                <p class="mb-5" style="font-size:1.25em; color:#fff; text-shadow:0 2px 8px #0005;">
+                    Sites profissionais, rápidos e otimizados para o seu negócio.<br>
+                    Fale conosco pelo WhatsApp e leve sua presença digital a outro nível com a <span style="color:#f44336; font-weight:600;">BumbaSite</span>!
+                </p>
+                <a class="btn btn-xl px-5 py-3" href="#about" style="background:#f44336; color:#fff; font-weight:700; border-radius:32px; box-shadow:0 4px 24px #f4433620; font-size:1.1em; letter-spacing:1px; transition:background 0.2s,box-shadow 0.2s;">
+                    <i class="bi-arrow-down-circle me-2"></i>Saiba mais
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- About-->
+   <section class="page-section bg-primary" id="about" style="background: linear-gradient(120deg, #232526 0%, #2c3e50 100%);">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center align-items-center">
+            <div class="col-lg-8 text-center">
+                <div class="about-card shadow-lg p-5 rounded-4 mb-4" style="background:rgba(34,37,38,0.92);">
+                    <h2 class="text-white mt-0" style="font-weight:700; letter-spacing:1px;">Sobre a BumbaSite</h2>
+                    <hr class="divider divider-light" style="border-top:2.5px solid #f44336; width:80px; margin:auto; margin-bottom:2rem;">
+                    <p class="text-white mb-4" style="font-size:1.18em; line-height:1.7;">
+        A <strong>BumbaSite</strong> é uma empresa dedicada a criar experiências online únicas para pequenas e médias empresas. Com foco em performance, design moderno e funcionalidade, oferecemos soluções completas para colocar o seu negócio no mapa digital.
+        </p>
+                    <a class="btn btn-xl px-5 py-3" href="#agendamento" style="background:linear-gradient(90deg,#f44336 0%,#b71c1c 100%); color:#fff; font-weight:600; border-radius:32px; box-shadow:0 4px 24px #f4433620; transition:background 0.2s,box-shadow 0.2s;">
+                        <i class="bi-globe me-2"></i>Solicite um orçamento
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+#about .about-card {
+    background: rgba(34,37,38,0.92);
+    border-radius: 24px;
+    box-shadow: 0 8px 32px #0003;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+#about .about-card:hover {
+    box-shadow: 0 12px 48px #f4433620;
+    transform: translateY(-4px) scale(1.01);
+}
+#about .btn-xl {
+    font-size: 1.15em;
+    border-radius: 32px;
+    padding: 0.85em 2.2em;
+}
+#about .btn-xl:hover, #about .btn-xl:focus {
+    background:linear-gradient(90deg,#b71c1c 0%,#f44336 100%);
+    color:#fff;
+    box-shadow:0 8px 32px #f4433640;
+    text-decoration: none;
+}
+</style>
+    <!-- Services-->
+<section class="page-section" id="services" style="background: linear-gradient(135deg, #23272f 0%, #2c3e50 100%);">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0" style="color:#fff; font-weight:700; letter-spacing:1px;">O que fazemos</h2>
+        <hr class="divider" style="border-top:2.5px solid #f44336; width:80px; margin:auto; margin-bottom:2.5rem;">
+        
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="mt-5 service-card">
+                    <div class="mb-3">
+                        <i class="fa-solid fa-code fs-1 service-icon"></i>
+                    </div>
+                    <h3 class="h4 mb-2" style="color:#fff;">Criação de Sites</h3>
+                    <p class="text-muted mb-0">Sites estáticos rápidos, responsivos e com design profissional para empresas e negócios.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="mt-5 service-card">
+                    <div class="mb-3">
+                        <i class="fa-solid fa-tools fs-1 service-icon"></i>
+                    </div>
+                    <h3 class="h4 mb-2" style="color:#fff;">Manutenção</h3>
+                    <p class="text-muted mb-0">Atualizações, correções e melhorias constantes para manter seu site sempre funcional.</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 text-center">
+                <div class="mt-5 service-card">
+                    <div class="mb-3">
+                        <i class="fa-solid fa-server fs-1 service-icon"></i>
+                    </div>
+                    <h3 class="h4 mb-2" style="color:#fff;">Hospedagem</h3>
+                    <p class="text-muted mb-0">Serviço de hospedagem com suporte, garantindo que seu site esteja sempre no ar.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+<style>
+#services {
+    background: linear-gradient(135deg, #23272f 0%, #2c3e50 100%);
+}
+#services .service-card {
+    background: #292b2f;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 2.2rem 1.2rem 1.5rem 1.2rem;
+    transition: transform 0.18s, box-shadow 0.18s;
+}
+#services .service-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px #f4433620;
+}
+#services .service-icon {
+    color: #f44336;
+    background: #fff;
+    border-radius: 50%;
+    padding: 18px;
+    font-size: 2.2em !important;
+    box-shadow: 0 2px 12px #f4433620;
+    margin-bottom: 0.5rem;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+#services .service-card:hover .service-icon {
+    background: #f44336;
+    color: #fff;
+    box-shadow: 0 4px 24px #f4433640;
+}
+#services h3, #services h2 {
+    color: #fff;
+}
+#services .text-muted {
+    color: #e0e0e0 !important;
+}
+</style>
+    <!-- Portfolio Profissional com SimpleLightbox -->
+    <section id="portfolio" class="portfolio-section py-5" style="background: linear-gradient(120deg, #232526 0%, #414345 100%);">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center text-white mb-5" style="font-weight:700; letter-spacing:1px;">Portfólio Profissional</h2>
+        <div class="row g-4">
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box shadow-lg" href="assets/img/portfolio/fullsize/1.jpg" data-lightbox="portfolio" title="Corte de cabelo 1">
+                    <img class="img-fluid rounded-4" src="assets/img/portfolio/thumbnails/1.jpg" alt="Corte de cabelo masculino 1" />
+                    <div class="portfolio-box-caption rounded-bottom-4">
+                        <div class="project-category text-white-50">Corte</div>
+                        <div class="project-name">Corte de cabelo</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box shadow-lg" href="assets/img/portfolio/fullsize/2.jpg" data-lightbox="portfolio" title="Corte de cabelo 2">
+                    <img class="img-fluid rounded-4" src="assets/img/portfolio/thumbnails/2.jpg" alt="Corte de cabelo masculino 2" />
+                    <div class="portfolio-box-caption rounded-bottom-4">
+                        <div class="project-category text-white-50">Corte</div>
+                        <div class="project-name">Corte de cabelo</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box shadow-lg" href="assets/img/portfolio/fullsize/3.jpg" data-lightbox="portfolio" title="Corte de cabelo 3">
+                    <img class="img-fluid rounded-4" src="assets/img/portfolio/thumbnails/3.jpg" alt="Corte de cabelo masculino 3" />
+                    <div class="portfolio-box-caption rounded-bottom-4">
+                        <div class="project-category text-white-50">Corte</div>
+                        <div class="project-name">Corte de cabelo</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box shadow-lg" href="assets/img/portfolio/fullsize/4.jpg" data-lightbox="portfolio" title="Corte de cabelo 4">
+                    <img class="img-fluid rounded-4" src="assets/img/portfolio/thumbnails/4.jpg" alt="Corte de cabelo masculino 4" />
+                    <div class="portfolio-box-caption rounded-bottom-4">
+                        <div class="project-category text-white-50">Corte</div>
+                        <div class="project-name">Corte de cabelo</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box shadow-lg" href="assets/img/portfolio/fullsize/5.jpg" data-lightbox="portfolio" title="Corte de cabelo 5">
+                    <img class="img-fluid rounded-4" src="assets/img/portfolio/thumbnails/5.jpg" alt="Corte de cabelo masculino 5" />
+                    <div class="portfolio-box-caption rounded-bottom-4">
+                        <div class="project-category text-white-50">Corte</div>
+                        <div class="project-name">Corte de cabelo</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a class="portfolio-box shadow-lg" href="assets/img/portfolio/fullsize/6.jpg" data-lightbox="portfolio" title="Corte de cabelo 6">
+                    <img class="img-fluid rounded-4" src="assets/img/portfolio/thumbnails/6.jpg" alt="Corte de cabelo masculino 6" />
+                    <div class="portfolio-box-caption rounded-bottom-4">
+                        <div class="project-category text-white-50">Corte</div>
+                        <div class="project-name">Corte de cabelo</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<style>
+.portfolio-section {
+    background: linear-gradient(120deg, #232526 0%, #414345 100%);
+}
+.portfolio-box {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 18px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    background: #18191a;
+}
+.portfolio-box img {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 18px 18px 0 0;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+.portfolio-box:hover img {
+    transform: scale(1.06);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+.portfolio-box-caption {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    padding: 1.1em 1em 0.9em 1em;
+    background: linear-gradient(0deg, rgba(30,30,30,0.92) 80%, rgba(30,30,30,0.0) 100%);
+    color: #fff;
+    border-radius: 0 0 18px 18px;
+    text-align: left;
+}
+.project-category {
+    font-size: 0.95em;
+    color: #b0b0b0;
+    letter-spacing: 1px;
+    margin-bottom: 0.2em;
+}
+.project-name {
+    font-size: 1.18em;
+    font-weight: 600;
+    color: #fff;
+}
+@media (max-width: 991px) {
+    .portfolio-section .row.g-4 {
+        row-gap: 2rem;
+    }
+}
+</style><!-- Agendamento -->
+<section class="page-section text-white" id="agendamento" style="background: linear-gradient(135deg, #232526 0%, #414345 100%);">
+    <div class="container px-4 px-lg-5 text-center">
+        <h2 class="mb-4" style="font-weight: 700; letter-spacing: 1px; color: #fff;">Solicite um Orçamento</h2>
+        <p class="mb-4" style="font-size: 1.15em; color: #e0e0e0;">
+            Quer criar um site profissional para o seu negócio? Clique no botão abaixo e fale diretamente conosco pelo WhatsApp.
+        </p>
+        <a href="https://wa.me/351926389247?text=Olá%2C%20gostaria%20de%20solicitar%20um%20orçamento%20para%20um%20site" 
+           class="btn btn-xl d-inline-flex align-items-center justify-content-center agendar-btn" 
+           target="_blank" style="background-color: #25D366; border-color: #25D366; color: #fff;">
+            <i class="fab fa-whatsapp me-2"></i> Falar no WhatsApp
+        </a>
+        <div class="mt-4" style="font-size: 1.05em; color: #fff; opacity: 0.8;">
+            <i class="bi bi-clock me-2"></i>Atendimento: Todos os dias.
+        </div>
+    </div>
+</section>
+
+<style>
+/* Cores profissionais para o botão de agendamento */
+.agendar-btn {
+    background: linear-gradient(90deg, #25d366 0%, #128c7e 100%);
+    color: #fff !important;
+    font-size: 1.25em;
+    border-radius: 32px;
+    padding: 0.85em 2.2em;
+    box-shadow: 0 4px 24px #128c7e40;
+    border: none;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+}
+.agendar-btn:hover, .agendar-btn:focus {
+    background: linear-gradient(90deg, #128c7e 0%, #25d366 100%);
+    color: #fff !important;
+    box-shadow: 0 8px 32px #128c7e60;
+    transform: scale(1.04);
+    text-decoration: none;
+}
+.bg-primary {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%) !important;
+}
+</style>
+    <!-- Seção de Localização -->
+<section class="page-section" id="localizacao" style="background: linear-gradient(120deg, #232526 0%, #414345 100%);">
+    <div class="container px-4 px-lg-5">
+        <h2 class="text-center mb-4" style="font-weight:700; letter-spacing:1px; color:#fff;">Nossa Localização</h2>
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                <div class="card shadow-lg border-0" style="border-radius:18px; overflow:hidden;">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13300682.687298752!2d-29.435943455646147!3d35.52314090687349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb32242dbf4226d5%3A0x2ab84b091c4ef041!2sPortugal!5e0!3m2!1spt-PT!2spt!4v1748601518951!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        title="Mapa da BumbaSite"></iframe>
+                </div>
+                <div class="text-center mt-3" style="color:#e0e0e0;">
+                    <i class="bi-geo-alt-fill me-2 text-warning"></i>
+                    Rua dos Correios, 3020, Souselas, Coimbra
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Contact-->
+  <section class="page-section" id="contact">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-8 col-xl-6 text-center">
+                <h2 class="mt-0">Entre em Contato</h2>
+                <hr class="divider" />
+                <p class="text-muted mb-5">Fale conosco pelo formulário, WhatsApp ou redes sociais. Retornaremos o mais breve possível!</p>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
+            <div class="col-lg-6">
+                <form action="https://formsubmit.co/nelsonbumbassite@gmail.com" method="POST" class="bg-light p-4 rounded shadow-sm">
+                    <!-- Honeypot anti-spam -->
+                    <input type="text" name="_honey" style="display:none" autocomplete="off">
+                    <!-- Name input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" name="Nome" type="text" placeholder="Seu nome completo" required />
+                        <label for="Nome">Nome completo</label>
+                    </div>
+                    <!-- Email address input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" name="Email" type="email" placeholder="seu@email.com" required />
+                        <label for="Email">Email</label>
+                    </div>
+                    <!-- Phone number input-->
+                    <div class="form-floating mb-3">
+                        <input class="form-control" name="Telefone" type="tel" placeholder="(99) 99999-9999" required />
+                        <label for="Telefone">Número de telefone</label>
+                    </div>
+                    <!-- Message input-->
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" name="Mensagem" placeholder="Digite sua mensagem aqui..." style="height: 10rem" required></textarea>
+                        <label for="Mensagem">Mensagem</label>
+                    </div>
+                    <!-- Campos ocultos -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://nelsontgpsi.github.io/Barbearia_Chris/obrigado.html">
+                    <input type="hidden" name="_template" value="box">
+                    <!-- Submit Button-->
+                    <div class="d-grid">
+                        <button class="btn btn-primary btn-xl" type="submit">Enviar Mensagem</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="row gx-4 gx-lg-5 justify-content-center mb-3">
+            <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                <div class="bg-white rounded shadow-sm p-3 d-inline-block">
+                    <i class="bi-phone fs-2 mb-2 text-primary"></i>
+                    <div class="fw-bold">Telefone / WhatsApp</div>
+                    <a href="https://wa.me/351926389247" class="text-decoration-none text-dark" target="_blank" style="font-size:1.15em;">
+                        +351 926 389 247
+                    </a>
+                </div>
+            </div>
+        </div>      
+    </div>
+</section>
+<style>
+#contact .form-control, #contact textarea {
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+}
+#contact form.bg-light {
+    background: #fff !important;
+}
+#contact .btn-primary.btn-xl {
+    font-size: 1.15em;
+    padding: 0.75em 1.5em;
+    border-radius: 8px;
+}
+#contact .btn-social {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.35em;
+    margin: 0 6px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+#contact .btn-social:hover {
+    background: #f4623a;
+    color: #fff !important;
+    box-shadow: 0 2px 8px #0002;
+}
+#contact .bg-white {
+    background: #fff !important;
+}
+</style>  
+    <!-- Footer -->
+<footer class="footer py-4" style="background: #222; color: #fff;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-4 text-lg-start text-center mb-3 mb-lg-0">
+                <strong>BumbaSite</strong> &copy; 2025<br>
+                <span style="font-size: 0.95em; color: #bbb;">
+                    Rua dos Correios, 3020, Souselas, Coimbra
+                </span>
+            </div>
+            <div class="col-lg-4 my-3 my-lg-0 text-center">
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/share/1Bkx6uBtr9/?mibextid=wwXIfr" target="_blank" title="Facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/" target="_blank" title="Instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="#" title="LinkedIn" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-light btn-social mx-1" href="https://wa.me/351926389247" target="_blank" title="WhatsApp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <div class="col-lg-4 text-lg-end text-center">
+                <a class="link-light text-decoration-none" href="http://nelsontgpsi.github.io/barbearia_cris/privacy.html">Política de Privacidade</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<style>
+.footer {
+    background: #222;
+    color: #fff;
+    font-size: 1.05em;
+    border-top: 2px solid #444;
+}
+.footer a.btn-social {
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    margin: 0 4px;
+}
+.footer a.btn-social:hover {
+    background: #fff;
+    color: #222 !important;
+    box-shadow: 0 2px 8px #0002;
+}
+.footer a.link-light {
+    color: #fff;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+}
+.footer a.link-light:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+@media (max-width: 991px) {
+    .footer .text-lg-start, .footer .text-lg-end {
+        text-align: center !important;
+    }
+}
+</style>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        // Ativa o SimpleLightbox para todos os links do portfólio
+        if (window.SimpleLightbox) {
+            new SimpleLightbox('.portfolio-box[data-lightbox="portfolio"]', {});
+        }
+    </script>
+    <a href="https://wa.me/351926389247" class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <style>
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25D366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            animation: whatsapp-bounce-in 0.8s;
+            transition: all 0.2s;
+        }
+        .whatsapp-float i {
+            margin-top: 13px;
+        }
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+            color: #fff;
+            box-shadow: 0 4px 12px #128c7e80;
+            transform: scale(1.08);
+        }
+        @keyframes whatsapp-bounce-in {
+            0% {
+                opacity: 0;
+                transform: scale(0.5) translateY(100px);
+            }
+            60% {
+                opacity: 1;
+                transform: scale(1.1) translateY(-10px);
+            }
+            80% {
+                transform: scale(0.95) translateY(5px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+    </style>
+</body>
+</html>
