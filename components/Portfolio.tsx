@@ -7,25 +7,25 @@ const projects: Project[] = [
     id: '1',
     title: "Moamba d'Angola",
     category: 'Restauração / Website',
-    imageUrl: 'img/moambadeangola.png',
+    imageUrl: '/moambadeangola.png',
   },
   {
     id: '2',
     title: 'Moda Elegante',
     category: 'E-commerce / Moda',
-    imageUrl: 'img/flexstore.png',
+    imageUrl: '/flexstore.png',
   },
   {
     id: '3',
     title: 'Moon PC',
     category: 'Loja Online / Tecnologia',
-    imageUrl: 'img/moonpc.png',
+    imageUrl: '/moonpc.png',
   },
   {
     id: '4',
     title: 'Clínica Saúde & Bem-estar',
     category: 'Saúde / Institucional',
-    imageUrl: 'img/coimbra.png',
+    imageUrl: '/coimbra.png',
   },
 ];
 
